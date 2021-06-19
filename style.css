@@ -73,3 +73,75 @@ li {
     height: 1px;
     margin: 30px auto 60px;
 }
+
+/*
+ヘッダー
+*/
+
+header{
+    height:  10vh;
+    background-color: #343a40;
+    color: #fff;
+}
+
+header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    padding: 0 20px;
+}
+
+/*
+メインビジュアル
+*/
+
+.mainvisual {
+    height: 80vh;
+    background-image: url(img/space-4660847_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mainvisual::before{
+    background-color: rgba(0,0,0,0,6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+.mainvisual h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+/*
+ABOUT
+*/
+
+.about{
+    background-color: #e2e4e4;
+}
+.about p{
+    line-height: 2.5;
+}
