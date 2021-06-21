@@ -186,3 +186,58 @@ html {
  .works h3{
     padding: 10px;
  }
+
+ /*----------------------------------------
+ ACCESS
+ ----------------------------------------*/
+
+ .access{
+    background-color: #fff;
+ }
+
+ /* ------------------------------------------------
+	* CONTACT
+-------------------------------------------------- */
+
+.contact {
+   background-color: #e2e4e4;
+}
+
+input {
+   width: 600px;
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+
+textarea {
+   width: 600px;
+   padding: 5px 0 120px 0;
+   margin-bottom: 30px;
+}
+
+.contact-btn {
+   width: 150px;
+   color: #fff;
+   background-color: rgb(71, 189, 236);
+   font-size: 16px;
+   padding: 10px 0;
+   border: 1px solid #333;
+   border-radius: 5px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.7);
+}
+
+.contact-btn:hover {
+   opacity: 0.7;
+}
+/*-------------------------------------------------
+フッター
+-------------------------------------------------*/
+
+footer {
+   background-color: #4a4a4a;
+   text-align: center;
+}
+footer p {
+   color: #fff;
+   padding: 20px 0;
+}
